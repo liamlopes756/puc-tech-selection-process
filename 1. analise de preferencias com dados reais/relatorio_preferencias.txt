@@ -1,0 +1,25 @@
+=== Total de Respostas por Linguagem ===
+linguagem_preferida
+Python        158
+Java           94
+JavaScript     78
+R              58
+C++            48
+SQL            28
+Go             20
+TypeScript     16
+
+=== Percentual por Horário de Estudo ===
+horario_estudo
+Manhã        57.6%
+Tarde        34.6%
+Noite         4.6%
+Madrugada     3.2%
+
+=== Formato de Conteúdo Mais Popular ===
+formato_conteudo_principal
+Video                  160
+Exercícios Práticos    127
+Projetos                90
+Texto                   69
+Mentoria                54
