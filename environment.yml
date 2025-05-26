@@ -1,0 +1,14 @@
+name: analise_preferencias
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyterlab    # ou jupyter, se preferir
+  - pip
+  - pip:
+      - notebook  # necessário para abrir notebooks se for usar pip-only
