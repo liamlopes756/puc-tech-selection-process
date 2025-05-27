@@ -38,6 +38,7 @@ plt.xlabel("Linguagem Preferida")
 plt.ylabel("Número de Respostas")
 plt.xticks(rotation=45)
 plt.tight_layout()
+plt.savefig("linhuagem_preferida.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # gráfico 2: pizza do percentual de preferência por horário de estudo
@@ -50,6 +51,7 @@ plt.pie(
 )
 plt.title("Percentual de Preferência por Horário de Estudo")  # gráfico de pizza é adequado para mostrar proporções de um todo
 plt.axis("equal")  # garante que a pizza fique redonda
+plt.savefig("percentual_horario_estudo.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
