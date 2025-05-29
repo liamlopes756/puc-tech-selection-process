@@ -71,5 +71,9 @@ with open("relatorio_preferencias.txt", "w") as f: #f de file
 
     f.write("\n=== Formato de Conteúdo Mais Popular ===\n")
     f.write(formato_top.to_string())
-    
+
+
+with open("relatorio_preferencias.txt", "r", encoding="cp1252") as f:
+    conteudo = f.read()
+print(conteudo) 
 
