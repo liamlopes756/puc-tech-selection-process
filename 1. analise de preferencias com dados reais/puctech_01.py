@@ -38,7 +38,7 @@ plt.xlabel("Linguagem Preferida")
 plt.ylabel("Número de Respostas")
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig("linhuagem_preferida.png", dpi=300, bbox_inches="tight")
+plt.savefig("linguagem_preferida.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # gráfico 2: pizza do percentual de preferência por horário de estudo
@@ -71,5 +71,9 @@ with open("relatorio_preferencias.txt", "w") as f: #f de file
 
     f.write("\n=== Formato de Conteúdo Mais Popular ===\n")
     f.write(formato_top.to_string())
-    
+
+
+with open("relatorio_preferencias.txt", "r", encoding="cp1252") as f:
+    conteudo = f.read()
+print(conteudo) 
 
