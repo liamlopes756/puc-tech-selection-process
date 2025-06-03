@@ -200,3 +200,18 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,windows
+
+# Ignorar ambientes Conda
+.conda/          # Pasta global do Conda (geralmente em ~/.conda)
+envs/            # Ambientes criados com 'conda create --prefix ./env'
+*.conda/         # Pastas específicas de ambiente
+miniconda3/      # Se você usa Miniconda
+anaconda3/       # Se você usa Anaconda
+
+# Ignorar pastas de ambiente específicas (ex: 'meu_ambiente/')
+meu_ambiente/    # Substitua pelo nome da pasta do seu ambiente
+
+# Ignorar arquivos temporários/locks do Conda
+*.conda_lock
+conda-meta/
+pkgs/
