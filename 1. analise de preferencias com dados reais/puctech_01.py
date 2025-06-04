@@ -7,6 +7,8 @@ import seaborn as sns
 #carregamento dos dados
 url="https://raw.githubusercontent.com/puc-tech/challenge/refs/heads/main/student_preferences_extended.csv"
 df = pd.read_csv(url) #df data frame
+
+#analise exploratoria
 #print(df.columns.tolist())
 #pd.set_option('display.max_columns',None)
 #print(df) #500 rows x 24 colums
